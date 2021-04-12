@@ -8,7 +8,7 @@ import os
 import shutil
 import subprocess
 
-from tobrot import LOGGER
+from noob import LOGGER
 
 
 async def create_archive(input_directory):
