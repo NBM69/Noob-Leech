@@ -8,7 +8,7 @@ import os
 import time
 
 from pyrogram.errors.exceptions import FloodWait
-from tobrot import EDIT_SLEEP_TIME_OUT, FINISHED_PROGRESS_STR, UN_FINISHED_PROGRESS_STR
+from noob import EDIT_SLEEP_TIME_OUT, FINISHED_PROGRESS_STR, UN_FINISHED_PROGRESS_STR
 
 logging.basicConfig(
     level=logging.DEBUG, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
