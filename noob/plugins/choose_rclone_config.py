@@ -10,7 +10,7 @@ import re
 
 import pyrogram.types as pyrogram
 from pyrogram.types import CallbackQuery
-from tobrot import LOGGER, OWNER_ID
+from noob import LOGGER, OWNER_ID
 
 config = configparser.ConfigParser()
 
