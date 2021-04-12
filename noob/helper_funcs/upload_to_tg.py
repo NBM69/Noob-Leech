@@ -22,7 +22,7 @@ from pyrogram.errors import FloodWait, MessageNotModified
 
 from pyrogram.types import InputMediaAudio, InputMediaDocument, InputMediaVideo
 from requests.utils import requote_uri
-from tobrot import (
+from noob import (
     DESTINATION_FOLDER,
     DOWNLOAD_LOCATION,
     EDIT_SLEEP_TIME_OUT,
@@ -32,10 +32,10 @@ from tobrot import (
     TG_MAX_FILE_SIZE,
     UPLOAD_AS_DOC,
 )
-from tobrot.helper_funcs.copy_similar_file import copy_file
-from tobrot.helper_funcs.display_progress import humanbytes, progress_for_pyrogram
-from tobrot.helper_funcs.help_Nekmo_ffmpeg import take_screen_shot
-from tobrot.helper_funcs.split_large_files import split_large_files
+from noob.helper_funcs.copy_similar_file import copy_file
+from noob.helper_funcs.display_progress import humanbytes, progress_for_pyrogram
+from noob.helper_funcs.help_Nekmo_ffmpeg import take_screen_shot
+from noob.helper_funcs.split_large_files import split_large_files
 
 
 # stackoverflow🤐
