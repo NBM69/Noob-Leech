@@ -7,12 +7,12 @@ import os
 import shutil
 
 from pyrogram.types import CallbackQuery
-from tobrot import AUTH_CHANNEL, MAX_MESSAGE_LENGTH, LOGGER
-from tobrot.helper_funcs.admin_check import AdminCheck
-from tobrot.helper_funcs.download_aria_p_n import aria_start
-from tobrot.helper_funcs.youtube_dl_button import youtube_dl_call_back
-from tobrot.plugins.choose_rclone_config import rclone_button_callback
-from tobrot.plugins.status_message_fn import cancel_message_f
+from noob import AUTH_CHANNEL, MAX_MESSAGE_LENGTH, LOGGER
+from noob.helper_funcs.admin_check import AdminCheck
+from noob.helper_funcs.download_aria_p_n import aria_start
+from noob.helper_funcs.youtube_dl_button import youtube_dl_call_back
+from noob.plugins.choose_rclone_config import rclone_button_callback
+from noob.plugins.status_message_fn import cancel_message_f
 
 
 async def button(bot, update: CallbackQuery):
