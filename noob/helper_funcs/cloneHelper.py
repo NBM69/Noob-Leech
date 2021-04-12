@@ -12,7 +12,7 @@ import subprocess
 
 import pyrogram.types as pyrogram
 import requests
-from tobrot import (
+from noob import (
     DESTINATION_FOLDER,
     DOWNLOAD_LOCATION,
     EDIT_SLEEP_TIME_OUT,
