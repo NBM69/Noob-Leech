@@ -8,8 +8,8 @@ import logging
 import os
 
 import pyrogram.types as pyrogram
-from tobrot import DEF_THUMB_NAIL_VID_S, LOGGER
-from tobrot.helper_funcs.display_progress import humanbytes
+from noob import DEF_THUMB_NAIL_VID_S, LOGGER
+from noob.helper_funcs.display_progress import humanbytes
 
 
 async def extract_youtube_dl_formats(
