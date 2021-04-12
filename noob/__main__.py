@@ -11,7 +11,7 @@ import traceback
 from pyrogram import Client, filters
 from pyrogram.handlers import CallbackQueryHandler, MessageHandler
 
-from tobrot import (
+from noob import (
     API_HASH,
     APP_ID,
     AUTH_CHANNEL,
@@ -40,13 +40,13 @@ from tobrot import (
     GYTDL_COMMAND,
     GPYTDL_COMMAND,
 )
-from tobrot.helper_funcs.download import down_load_media_f
-from tobrot.plugins.call_back_button_handler import button
+from noob.helper_funcs.download import down_load_media_f
+from noob.plugins.call_back_button_handler import button
 
 # the logging things
-from tobrot.plugins.choose_rclone_config import rclone_command_f
-from tobrot.plugins.custom_thumbnail import clear_thumb_nail, save_thumb_nail
-from tobrot.plugins.incoming_message_fn import (
+from noob.plugins.choose_rclone_config import rclone_command_f
+from noob.plugins.custom_thumbnail import clear_thumb_nail, save_thumb_nail
+from noob.plugins.incoming_message_fn import (
     g_clonee,
     g_yt_playlist,
     incoming_message_f,
@@ -54,9 +54,9 @@ from tobrot.plugins.incoming_message_fn import (
     incoming_youtube_dl_f,
     rename_tg_file,
 )
-from tobrot.plugins.new_join_fn import help_message_f, new_join_f
-from tobrot.plugins.rclone_size import check_size_g, g_clearme
-from tobrot.plugins.status_message_fn import (
+from noob.plugins.new_join_fn import help_message_f, new_join_f
+from noob.plugins.rclone_size import check_size_g, g_clearme
+from noob.plugins.status_message_fn import (
     cancel_message_f,
     eval_message_f,
     exec_message_f,
