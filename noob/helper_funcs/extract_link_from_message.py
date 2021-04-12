@@ -6,7 +6,7 @@ import logging
 
 import aiohttp
 from pyrogram.types import MessageEntity
-from tobrot import TG_OFFENSIVE_API, LOGGER
+from noob import TG_OFFENSIVE_API, LOGGER
 
 
 def extract_url_from_entity(entities: MessageEntity, text: str):
