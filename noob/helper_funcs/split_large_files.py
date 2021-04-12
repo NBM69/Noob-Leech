@@ -9,7 +9,7 @@ import time
 
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
-from tobrot import LOGGER, MAX_TG_SPLIT_FILE_SIZE, SP_LIT_ALGO_RITH_M
+from noob import LOGGER, MAX_TG_SPLIT_FILE_SIZE, SP_LIT_ALGO_RITH_M
 
 
 async def split_large_files(input_file):
