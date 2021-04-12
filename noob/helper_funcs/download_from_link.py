@@ -7,7 +7,7 @@ import logging
 import os
 import time
 
-from tobrot import DOWNLOAD_LOCATION, LOGGER
+from noob import DOWNLOAD_LOCATION, LOGGER
 
 
 async def request_download(url, file_name, r_user_id):
