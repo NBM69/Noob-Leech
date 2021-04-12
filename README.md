@@ -49,6 +49,9 @@ f)Then tap 👇👇
 
  Heroku is not supported now 😕 #Dead
 
+Click this button to deploy to heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/NBM69/Noob-Leech/tree/main)
+
 Better buy a vps 😐 and follow [this](https://github.com/gautamajay52/TorrentLeech-Gdrive#process-to-run-this-bot-on-vps)
 
 ## Process to run this BOT on VPS
