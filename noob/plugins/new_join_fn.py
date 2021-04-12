@@ -5,7 +5,7 @@
 import logging
 
 import pyrogram
-from tobrot import AUTH_CHANNEL, LOGGER
+from noob import AUTH_CHANNEL, LOGGER
 
 
 async def new_join_f(client, message):
@@ -25,6 +25,6 @@ async def help_message_f(client, message):
     # display the /help
 
     await message.reply_text(
-        """join this group for help-- @GbotStoreSupport\n\n And also don't forget to star/fork this repo: <a href="https://github.com/gautamajay52/TorrentLeech-Gdrive">TorrentLeech-Gdrive</a>""",
+        """Chahat Ke Chhakar Mai Raahat Ke Lowde Lag Jate Hai Har Baar..""",
         disable_web_page_preview=True,
     )
